@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\hw09.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\hw09.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\hw09Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\hw09">
+      <UniqueIdentifier>{92773119-040B-397B-A52E-AACA61BFE4E9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\hw09\hw09.Build.cs">
+      <Filter>Source\hw09</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\hw09\hw09.cpp">
+      <Filter>Source\hw09</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hw09\hw09.h">
+      <Filter>Source\hw09</Filter>
+    </ClCompile>
+    <Filter Include="Source\hw09\Game">
+      <UniqueIdentifier>{A9A9393D-C469-34B7-9601-29B45B9D0595}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\hw09\Game\HWGameModeBase.cpp">
+      <Filter>Source\hw09\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hw09\Game\HWGameModeBase.h">
+      <Filter>Source\hw09\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hw09\Game\HWGameStateBase.cpp">
+      <Filter>Source\hw09\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hw09\Game\HWGameStateBase.h">
+      <Filter>Source\hw09\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\hw09\Player">
+      <UniqueIdentifier>{A7C145E9-EE68-3161-8944-F104A68B3BBB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\hw09\Player\HWPlayerController.cpp">
+      <Filter>Source\hw09\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hw09\Player\HWPlayerController.h">
+      <Filter>Source\hw09\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hw09\Player\HWPlayerState.cpp">
+      <Filter>Source\hw09\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hw09\Player\HWPlayerState.h">
+      <Filter>Source\hw09\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\hw09\UI">
+      <UniqueIdentifier>{91FBE758-6DBA-3ECA-A9B7-C5692764F331}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\hw09\UI\HWChatInput.cpp">
+      <Filter>Source\hw09\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\hw09\UI\HWChatInput.h">
+      <Filter>Source\hw09\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
